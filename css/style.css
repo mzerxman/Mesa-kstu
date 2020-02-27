@@ -154,6 +154,7 @@ header #navs .container ul li a{
 #gal-box .container img{
     width: 350px;
     height: 250px;
+    text-align: center;
 }
 
 #gal-box .container{
@@ -168,6 +169,16 @@ header #navs .container ul li a{
 
 #gal-box{
     padding: 70px;
+}
+
+.gal-a:hover{
+   border-bottom: black 2px solid;
+}
+
+
+.presido-img{
+    border-radius: 300%;
+    
 }
 
 
@@ -243,13 +254,36 @@ aside#sidebar-email form .side-button{
 
 /* Staff Styling */
 
+#staff-info{
+    text-align: center;
+
+
+}
+
 #staff-info .container img{
     width: 450px;
     height: 350px;
 
 }
 
+#staff-info .container-1 img{
+    width: 450px;
+    height: 350px;
+    /* text-align: center; */
+
+}
 #staff-info .container{
+    width: 500px;
+    border: tomato 5px solid;
+    padding: 50px;
+    margin: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    
+}
+
+.container-1{
+    text-align: center;
     width: 500px;
     border: tomato 5px solid;
     padding: 50px;
